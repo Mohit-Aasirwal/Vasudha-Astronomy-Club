@@ -1,0 +1,126 @@
+/******************* tag selectors******************* */
+body {
+  background-color: grey;
+}
+
+/* *****************class selector******************* */
+.title {
+  background-color: inherit;
+}
+
+.fa-pipe {
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Aboreto', cursive;
+  font-weight: bolder;
+  text-align: center;
+  color: #D6D5A8;
+}
+
+.navbar-brand:hover {
+  color: #51557E;
+}
+
+.Members {
+  background-color: #1B2430;
+  margin-top: 0.5px;
+}
+
+.logo1 {
+  width: 15rem;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+.member-img{
+  border-radius: 30%;
+  width: 15rem;
+}
+.description {
+  margin-top: 0.5px;
+  background-color: #1B2430;
+}
+.name-of-member{
+  color:#816797;
+  float: right;
+  
+}
+.nav-link {
+  font-family: 'Anek Odia', sans-serif;
+  color: #D6D5A8;
+}
+
+.nav-link:hover {
+  color: #51557E;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #D6D5A8;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+navbar-toggler-icon {
+  color: inherit;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.logo-img {
+  height: auto;
+  width: 2.5rem;
+  border-radius: 100%;
+}
+
+/* .checkbox{
+  height: 40px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 20px;
+  position: relative;
+}
+.checkbox input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  appearance: none;
+  cursor: pointer;
+}
+.checkbox input::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 150px;
+  background: linear-gradient(45deg, #0f1623, #121a2a);
+
+}
+.checkbox input:checked::before{
+  background: linear-gradient(45deg,
+      deepskyblue, deeppink);
+}
+.checkbox input::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 150px;
+  background: #111827;
+  inset -5px 5px 10px #1b263e
+  transform: translate(0px, 0px);
+  transition: 1s ease;
+}
+.checkbox input:checked::after{
+  transform: translate(60px, 0px);
+} */
+/* ***************** id selectors******************** */
