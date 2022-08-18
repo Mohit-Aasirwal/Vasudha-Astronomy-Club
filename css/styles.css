@@ -73,7 +73,9 @@ section .section-title {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
-
+.card{
+  background-color: #816797;
+}
 .mainflip {
     -webkit-transition: 1s;
     -webkit-transform-style: preserve-3d;
@@ -168,7 +170,7 @@ section .section-title {
 .footer-div{
   background-color: #1B2430;
   margin-top: 1px;
-  
+
 }
 .Members {
   background-color: #1B2430;
