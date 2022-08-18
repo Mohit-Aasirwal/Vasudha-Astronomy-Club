@@ -1,13 +1,156 @@
 /******************* tag selectors******************* */
 body {
   background-color: grey;
+  font-family: 'Anek Odia','Roboto', sans-serif;
 }
+  hr {
+  margin: 0;
+  border: none;
+  border-top: 1rem dotted black;
+  width: 20%;
+  background-color: #1B2430;
+
+}
+
+
 
 /* *****************class selector******************* */
 .title {
   background-color: inherit;
+  padding: 0;
+}
+/* FontAwesome for working BootSnippet :> */
+
+#team {
+    background: #1B2430; !important;
+    padding: 10px;
 }
 
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.row{
+  background-color:#1B2430;
+  margin-top: ;
+}
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
 .fa-pipe {
   color: white;
 }
@@ -22,10 +165,14 @@ body {
 .navbar-brand:hover {
   color: #51557E;
 }
-
+.footer-div{
+  background-color: #1B2430;
+  margin-top: 1px;
+  
+}
 .Members {
   background-color: #1B2430;
-  margin-top: 0.5px;
+  margin-top: 1px;
 }
 
 .logo1 {
@@ -44,7 +191,7 @@ body {
 .name-of-member{
   color:#816797;
   float: right;
-  
+
 }
 .nav-link {
   font-family: 'Anek Odia', sans-serif;
@@ -68,6 +215,9 @@ navbar-toggler-icon {
   color: inherit;
 }
 
+navbar-toggler-icon:hover {
+  color: deepskyblue;
+}
 .navbar-nav {
   margin-left: auto;
 }
